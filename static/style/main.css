@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  block-size: border-box;
+}
+
+.conteudo {
+  background-color: #0e0e4b;
+}
+
+section {
+  min-height: 90vh;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: #0e0e4b;
+  z-index: 1;
+}
+
+.poppins-regular,
+.nav-link,
+p {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  color: #fff !important;
+}
+
+.poppins-black,
+h1,
+h5 {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 900 !important;
+  font-style: normal !important;
+  color: #53e221 !important;
+}
+
+#offcanvasDarkNavbar {
+  background-color: #0e0e4b;
+  width: 70%;
+}
+
+.imagem-fabio {
+  transform: 0.2;
+}
+.imagem-fabio:hover {
+  transform: scale(1.1, 1.1);
+}
+.text-home {
+  text-align: start;
+}
+
+.botao:hover {
+  transform: scale(1.1, 1.1) !important;
+}
+.botao {
+  background-color: #1d1da8 !important;
+  color: #fff !important;
+  font: bold;
+  transition-duration: 0.2;
+}
+
+.botao-box:hover {
+  transform: scale(1.1, 1.1);
+}
+.botao-box {
+  background-color: #0e0e4b !important;
+  color: #fff !important;
+  font: bold;
+  transition-duration: 0.2;
+}
+
+.cartao:hover {
+  transform: scale(1.1, 1.1);
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 0;
+}
+.cartao {
+  background-color: #1d1da8;
+  border-top-left-radius: 2rem;
+  width: 8rem;
+  height: 10rem;
+  cursor: pointer;
+  transition-duration: 0.2;
+}
+
+.icon-f {
+  width: 4rem;
+}
+.icon-fe {
+  width: 3rem;
+}
+
+.card-img-top {
+  margin-bottom: 1rem;
+  width: 18rem;
+}
+.box-text {
+  font-size: 0.8em;
+}
+
+.box-body:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.box-body {
+  background-color: #1d1da8;
+  padding: 1rem;
+  width: 20rem;
+  height: 27rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  transition-duration: 0.2;
+}
+
+.contato {
+  background-color: #1d1da8;
+  border-radius: 2rem;
+}
+#Contato,
+#Projetos,
+#Tecnologias {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#Contato a {
+  text-decoration: none;
+}
+#Contato p {
+  text-decoration: underline;
+  margin: 0;
+}
+#Tecnologias,
+#Projetos {
+  margin-top: 2rem;
+}
+.div-contato {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 2rem;
+}
+.icon-contato {
+  width: 2rem;
+}
+
+@media (max-width: 480px) {
+  .div-texto-home {
+    text-align: center;
+    justify-content: center;
+  }
+  .box-text,
+  .div-contato {
+    font-size: 0.8rem;
+  }
+  .div-contato {
+    margin-bottom: 1rem;
+  }
+  .bloco-texto {
+    display: flex;
+    justify-content: center;
+  }
+  .texto-home {
+    text-align: center;
+  }
+}
